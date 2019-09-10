@@ -1,0 +1,241 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size:40%;
+}
+
+h1{
+    font-size:2rem;
+    text-transform: uppercase;
+    margin-bottom:0px;
+    
+}
+.site-header{
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    height: 20rem;
+}
+
+.logo{
+    width: 10%;
+}
+
+.content-header{
+    display:flex;
+    justify-content: space-between;
+}
+
+nav{
+    background: #343331;
+    padding: 1.5rem;
+    border-radius: .5rem;
+    opacity: .7;
+    
+}
+
+nav a {
+    font-size: 1.6rem;
+    text-decoration: none !important;
+    color: white;
+    padding: 1rem;
+}
+
+nav a:hover{
+    color: rgb(179, 122, 18);
+}
+
+.main-header{
+    display: flex;
+    height:90%;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+h2{
+    font-size:1.3rem;
+}
+
+.section-location{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-loc{
+    width: 80%;
+    border: 1px solid #edededcd;
+    border-radius: .5rem;
+    padding:.5rem;
+}
+
+.text-location{
+    font-size: 1.1rem;
+}
+
+.banner{
+    height: 15rem;
+    background-image: url(img/banner.jpeg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    color: white:
+    font-size: 3rem;
+}
+
+.container{
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.news{
+    display:flex;
+    justify-content: space-between;
+    padding:1rem;
+    margin:1rem;
+   
+}
+
+.square{
+    flex-basis: calc(33% - 1rem);
+    padding:1rem;
+    
+    
+}
+
+.news-img{
+    width: 20rem;
+    margin: 0px;
+}
+
+.news-img:hover{
+    transform:scale(1.1);
+    border-bottom:2px solid yellowgreen;
+}
+
+h4{
+    text-transform: uppercase;
+    color: #7e7d7b
+    font-size: 1rem;
+}
+
+h5{
+    text-transform: none;
+    font-size: 1.3rem;
+}
+
+h6{
+    background: #e4d506;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: 5rem;
+}
+
+h6:hover{
+    transform: scale(1.1);
+}
+
+.square-text{
+    text-align: center;
+  }
+
+.button-news{
+    text-align:center;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.site-header-contact{
+    background: grey;
+    color: white;
+    height: 40vh;
+    padding:0rem 0rem 4rem 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.img-location{
+    width: 50%;
+    border: 1px solid #000000
+    border-radius:.5rem;
+    padding:.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="text"],textarea,input[type="password"], input[type="url"]{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    width: 70%;
+    background-color: #e1e1e1;
+    padding: .3rem;
+    border-radius: 1rem;
+    border:none;
+
+}
+
+legend,label{
+    font-size:1.3rem;
+    color:#000000;
+}
+
+.field-set{
+    border-radius: 1rem !important;
+    border: 1px solid black !important;
+    margin:1rem !important;
+
+}
+
+.pdf-div{
+    width: 50rem;
+    height: 30rem;
+    border:1px solid black;
+    margin: 0 auto;
+    background: #e1e1e1;
+}
+
+
+
+
+
